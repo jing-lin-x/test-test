@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/content.css">
+</head>
+
+<body>
+  <div class="wrapper content_bg">
+    <div class="content_bg">
+      <div class=container>
+        <form class=from-box action="content.php" method="post">
+          <h1>聯絡表單</h1>
+          <div class="margin_label">
+            <label for="Nme"> 姓名: </label>
+            <input type="text" name="Nme">
+          </div>
+          <div class="margin_label">
+            <label for="Tel"></label>電話:
+            <input type="tel" name="Tel">
+          </div>
+          <div class="margin_label">
+
+            <label class="margin-opition" for="Opinion">
+              <p>意見:</p>
+            </label>
+            <textarea name="Opinion" col="30" row="5">
+            </textarea>
+          </div>
+          <br>
+          <input type="submit" value="送出">
+          <input type="reset" value="取消">
+        </form>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+.content_bg {
+    background: linear-gradient(#2d84e7, rgb(217, 246, 138), #fff);
+    height: 100%;
+    overflow: hidden;
+}
+form {
+    width: 30%;
+    border: 1px solid rgb(7, 6, 6);
+    padding: 20px 60px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.3);
+}
+.from-box {
+    margin: 80px;
+}
+.margin_label {
+    margin-bottom: 20px;
+    /* border: solid 1px red; */
+}
+.margin-opition {
+    /* border: 1px solid red; */
+    margin-bottom: 30px;
+    align-items: center;
+}
+.margin-b {
+    margin-top: 30px;
+}
+.margin_label > textarea {
+    margin-left: 40px;
+}
